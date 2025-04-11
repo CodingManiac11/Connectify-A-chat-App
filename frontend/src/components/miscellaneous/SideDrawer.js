@@ -142,7 +142,11 @@ function SideDrawer() {
           </Button>
         </Tooltip>
         <Text fontSize="2xl" fontFamily="Work sans">
+<<<<<<< HEAD
           Connectify
+=======
+          Talk-A-Tive
+>>>>>>> 652ec256d84570cee906d4d35137ee8de1053b07
         </Text>
         <div>
           <Menu>

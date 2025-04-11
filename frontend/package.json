@@ -38,8 +38,13 @@
     "@babel/preset-react": "^7.16.0"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
+=======
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && set PORT=3000 && react-scripts start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+>>>>>>> 652ec256d84570cee906d4d35137ee8de1053b07
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

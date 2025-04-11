@@ -15,7 +15,11 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
+<<<<<<< HEAD
 const ENDPOINT = "http://localhost:5000"; // "https://connectify.herokuapp.com"; -> After deployment
+=======
+const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+>>>>>>> 652ec256d84570cee906d4d35137ee8de1053b07
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
